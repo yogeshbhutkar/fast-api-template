@@ -44,3 +44,46 @@ This template is designed to grow with your project. Add new controllers, servic
 - Alembic
 - PostgreSQL (recommended, but not enforced)
 - JWT Auth Flow
+
+--
+
+## 🧑‍💻 Getting Started
+
+1. **Clone the repo**:
+
+   ```bash
+   git clone https://github.com/yogeshbhutkar/fast-api-template
+   cd fast-api-template
+   ```
+
+2. **Set up environment variables**:
+
+   Create a `.env` file in the root directory based on the provided `.env.example`.
+   Update the database URL and JWT secret key.
+
+3. **Build and start the application**:
+
+   Using Docker Compose:
+
+   ```bash
+   make build
+   make start
+   ```
+
+   To stop the application:
+
+   ```bash
+   make down
+   ```
+
+   This will start the FastAPI server on `http://localhost:8000`.
+   The automatic API docs will be available at `http://localhost:8000/docs`.
+
+4. **Run database migrations**:
+
+   ```bash
+   pip install alembic
+   alembic upgrade head
+   ```
+
+   This will create the necessary tables in your database.
