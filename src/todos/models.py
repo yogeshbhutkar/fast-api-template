@@ -3,7 +3,7 @@ from typing import Optional
 from uuid import UUID
 from pydantic import BaseModel, ConfigDict
 
-from ..entities.todo import Priority
+from ..entities import Priority
 
 class TodoBase(BaseModel):
 	description: str

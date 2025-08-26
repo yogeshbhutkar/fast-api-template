@@ -9,8 +9,7 @@ from alembic import context
 
 from src.core.config import settings
 from src.database.core import Base
-from src.entities.todo import *
-from src.entities.user import *
+from src.entities import *
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

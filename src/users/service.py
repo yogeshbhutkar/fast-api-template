@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.auth.service import get_password_hash, verify_password
 from src.core.exceptions import InvalidPasswordError, PasswordMismatchError, UserNotFoundError
-from src.entities.user import User
+from src.entities import User
 from src.users import models
 
 async def get_user_by_id(db: AsyncSession, user_id: Optional[UUID]) -> User:

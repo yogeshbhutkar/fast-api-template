@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from datetime import datetime, timezone
 
 from ..core.exceptions import TodoCreationError, UserNotFoundError
-from ..entities.todo import Todo
+from ..entities import Todo
 from ..todos import models
 
 async def create_todo(

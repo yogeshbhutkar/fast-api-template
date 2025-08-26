@@ -9,7 +9,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from sqlalchemy import select
 
-from ..entities.user import User
+from ..entities import User
 from ..auth import models
 from ..core.config import settings
 from ..core.exceptions import AuthenticationError
