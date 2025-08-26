@@ -3,9 +3,15 @@ from pydantic_settings import BaseSettings
 from pydantic import field_validator
 
 class Settings(BaseSettings):
+	"""
+	Application settings.
+
+	Loads settings from environment variables or a .env file.
+	"""
 	API_PREFIX: str = "/api"
 	DEBUG: bool = False
 	DATABASE_URL: str = ""
+	ALEMBIC_DATABASE_URL: str = ""
 	SQLALCHEMY_ECHO: bool = False
 	ALLOWED_ORIGINS: str = ""
 	OPENAI_API_KEY: str = ""
