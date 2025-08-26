@@ -20,10 +20,10 @@ class Todo(Base):
 	id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
 	user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey('users.id'), nullable=False)
 	description: Mapped[str] = mapped_column(String, nullable=False)
-	due_date: Mapped[datetime] = mapped_column(DateTime, nullable=True)
+	due_date: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
 	is_completed: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
-	created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=lambda: datetime.now(timezone.utc))
-	completed_at: Mapped[datetime] = mapped_column(DateTime, nullable=True)
+	created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=lambda: datetime.now(timezone.utc))
+	completed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
 	priority: Mapped[Priority]= mapped_column(Enum(Priority), nullable=False, default=Priority.Medium)
 
 	def __repr__(self):
