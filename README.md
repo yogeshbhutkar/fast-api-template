@@ -45,7 +45,7 @@ This template is designed to grow with your project. Add new controllers, servic
 - PostgreSQL (recommended, but not enforced)
 - JWT Auth Flow
 
---
+---
 
 ## 🧑‍💻 Getting Started
 
