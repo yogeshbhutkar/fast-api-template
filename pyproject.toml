@@ -1,0 +1,27 @@
+[project]
+name = "fast-api-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=25.1.0",
+    "fastapi>=0.116.1",
+    "httpx>=0.28.1",
+    "passlib>=1.7.4",
+    "pydantic[email]>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "pyjwt>=2.10.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.1.0",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.9",
+    "slowapi>=0.1.9",
+    "types-passlib>=1.7.7.20250602",
+    "types-pyjwt>=1.7.1",
+    "uvicorn>=0.35.0",
+    "python-multipart>=0.0.20",
+    "alembic>=1.16.4",
+    "sqlalchemy[asyncio]>=2.0.43",
+    "asyncpg>=0.30.0",
+]
