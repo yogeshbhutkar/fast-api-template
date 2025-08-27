@@ -3,14 +3,14 @@ import logging
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.auth.service import AuthService, CurrentUser
-from src.core.exceptions import (
+from app.auth.service import AuthService, CurrentUser
+from app.core.exceptions import (
 	InvalidPasswordError,
 	PasswordMismatchError,
 	UserNotFoundError,
 )
-from src.entities import User
-from src.users import models
+from app.entities import User
+from app.users import models
 
 
 class UserService:

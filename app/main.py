@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .core.api import register_routes
-from .core.config import settings
-from .core.logger import LogLevels, configure_logging
+from app.core.api import register_routes
+from app.core.config import settings
+from app.core.logger import LogLevels, configure_logging
 
 configure_logging(log_level=LogLevels.info)
 
@@ -25,17 +25,11 @@ app.add_middleware(
 
 register_routes(app)
 
-"""
-Only uncomment below to create new tables,
-otherwise the tests will fail if not connected.
-"""
-# create_tables()
-
 if __name__ == "__main__":
 	import uvicorn
 
 	uvicorn.run(
-		app="src.main:app",
+		app="app.main:app",
 		host="0.0.0.0",
 		port=8000,
 		reload=True,

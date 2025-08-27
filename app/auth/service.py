@@ -12,10 +12,10 @@ from passlib.context import CryptContext
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.auth import models
-from src.core.config import settings
-from src.core.exceptions import AuthenticationError
-from src.entities import User
+from app.auth import models
+from app.core.config import settings
+from app.core.exceptions import AuthenticationError
+from app.entities import User
 
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="auth/token")
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

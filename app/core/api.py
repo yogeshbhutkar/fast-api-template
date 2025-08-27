@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-from src.auth.controller import router as auth_router
-from src.todos.controller import router as todos_router
-from src.users.controller import router as users_router
+from app.auth.controller import router as auth_router
+from app.todos.controller import router as todos_router
+from app.users.controller import router as users_router
 
 
 def register_routes(app: FastAPI):

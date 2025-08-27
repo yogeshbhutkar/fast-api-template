@@ -3,7 +3,7 @@ from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict
 
-from src.entities import Priority
+from app.entities import Priority
 
 
 class TodoBase(BaseModel):
