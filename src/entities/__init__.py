@@ -1,4 +1,4 @@
-from .todo import Todo, Priority
+from .todo import Priority, Todo
 from .user import User
 
 __all__ = ["Todo", "Priority", "User"]

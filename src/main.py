@@ -9,7 +9,7 @@ configure_logging(log_level=LogLevels.info)
 
 app = FastAPI(
 	title="FastAPI Template",
-	description="A template for building FastAPI applications with SQLAlchemy and Pydantic.",
+	description="An all batteries included template for FastAPI.",
 	version="0.1.0",
 	docs_url="/docs",
 	redoc_url="/redoc",
@@ -33,6 +33,7 @@ otherwise the tests will fail if not connected.
 
 if __name__ == "__main__":
 	import uvicorn
+
 	uvicorn.run(
 		app="src.main:app",
 		host="0.0.0.0",

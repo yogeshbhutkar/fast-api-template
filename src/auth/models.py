@@ -1,5 +1,7 @@
 from uuid import UUID
+
 from pydantic import BaseModel, EmailStr, Field
+
 
 class RegisterUserRequest(BaseModel):
 	email: EmailStr
@@ -7,10 +9,12 @@ class RegisterUserRequest(BaseModel):
 	last_name: str = Field(..., min_length=1, max_length=50)
 	password: str = Field(..., min_length=8, max_length=128)
 
+
 class Token(BaseModel):
 	access_token: str
 	token_type: str
-	
+
+
 class TokenData(BaseModel):
 	user_id: str | None = None
 

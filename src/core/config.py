@@ -1,6 +1,6 @@
-from typing import List
-from pydantic_settings import BaseSettings
 from pydantic import field_validator
+from pydantic_settings import BaseSettings
+
 
 class Settings(BaseSettings):
 	"""
@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
 	Loads settings from environment variables or a .env file.
 	"""
+
 	API_PREFIX: str = "/api"
 	DEBUG: bool = False
 	DATABASE_URL: str = ""
@@ -19,13 +20,15 @@ class Settings(BaseSettings):
 	AUTH_ALGORITHM: str = "HS256"
 	AUTH_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
+	@classmethod
 	@field_validator("ALLOWED_ORIGINS")
-	def parse_allowed_origins(cls, v: str) -> List[str]:
+	def parse_allowed_origins(cls, v: str) -> list[str]:
 		return v.split(",") if v else []
 
 	class Config:
 		env_file = ".env"
 		env_file_encoding = "utf-8"
 		case_sensitive = True
+
 
 settings = Settings()
