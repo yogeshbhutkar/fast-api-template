@@ -1,10 +1,9 @@
 import logging
-from uuid import UUID
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.auth.service import get_password_hash, verify_password
+from src.auth.service import AuthService, CurrentUser
 from src.core.exceptions import (
 	InvalidPasswordError,
 	PasswordMismatchError,
@@ -14,51 +13,70 @@ from src.entities import User
 from src.users import models
 
 
-async def get_user_by_id(db: AsyncSession, user_id: UUID | None) -> User:
-	if not user_id:
-		raise UserNotFoundError()
+class UserService:
+	"""Service class for managing user operations."""
 
-	user = (
-		await db.execute(select(User).where(User.id == user_id))
-	).scalar_one_or_none()
+	def __init__(self, db: AsyncSession, current_user: CurrentUser):
+		"""Initialize the UserService with a database session.
 
-	if not user:
-		logging.warning(f"User with id {user_id} not found.")
-		raise UserNotFoundError(user_id)
+		Args:
+			db (AsyncSession): The database session.
+			current_user (TokenData): The current authenticated user.
+		"""
+		self.db = db
 
-	return user
+		user_id = current_user.get_uuid()
+		if not user_id:
+			logging.error("Invalid user ID in token data.")
+			raise UserNotFoundError()
+		self.user_id = user_id
 
+	async def get_user_by_id(self) -> User:
+		"""Fetch a user by their ID."""
+		user = (
+			await self.db.execute(select(User).where(User.id == self.user_id))
+		).scalar_one_or_none()
 
-async def change_password(
-	db: AsyncSession,
-	user_id: UUID | None,
-	password_change: models.PasswordChangeRequest,
-) -> None:
-	if not user_id:
-		raise UserNotFoundError()
+		if not user:
+			logging.warning(f"User with id {self.user_id} not found.")
+			raise UserNotFoundError(self.user_id)
 
-	try:
-		user = await get_user_by_id(db, user_id)
+		return user
 
-		# Verify current password.
-		if not verify_password(password_change.current_password, user.password_hash):
-			logging.warning(
-				f"Password change failed for {user_id}: incorrect current password.",
+	async def change_password(
+		self,
+		password_change: models.PasswordChangeRequest,
+	) -> None:
+		"""Change the password for a user after verifying the current password."""
+		try:
+			user = await self.get_user_by_id()
+
+			# Verify current password.
+			if not AuthService.verify_password(
+				password_change.current_password,
+				user.password_hash,
+			):
+				logging.warning(
+					f"Operation failed for {self.user_id}: incorrect current password.",
+				)
+				raise InvalidPasswordError()
+
+			# Verify new password match.
+			if password_change.new_password != password_change.new_password_confirm:
+				logging.warning(
+					f"Password mismatch for user: {self.user_id}",
+				)
+				raise PasswordMismatchError()
+
+			# Update password.
+			user.password_hash = AuthService.get_password_hash(
+				password_change.new_password,
 			)
-			raise InvalidPasswordError()
+			await self.db.commit()
+			logging.info(f"Successfully changed password for user ID: {self.user_id}")
 
-		# Verify new password match.
-		if password_change.new_password != password_change.new_password_confirm:
-			logging.warning(
-				f"Password mismatch during change attempt for user ID: {user_id}",
+		except Exception as e:
+			logging.error(
+				f"Error during password change for user {self.user_id}: {str(e)}",
 			)
-			raise PasswordMismatchError()
-
-		# Update password.
-		user.password_hash = get_password_hash(password_change.new_password)
-		await db.commit()
-		logging.info(f"Successfully changed password for user ID: {user_id}")
-
-	except Exception as e:
-		logging.error(f"Error during password change for user id {user_id}: {str(e)}")
-		raise
+			raise

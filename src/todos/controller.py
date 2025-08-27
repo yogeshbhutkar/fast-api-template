@@ -1,10 +1,10 @@
 from uuid import UUID
 
-from fastapi import APIRouter, status
+from fastapi import APIRouter, Depends, status
 
-from src.auth.service import CurrentUser
-from src.database.core import DBSession
-from src.todos import models, service
+from src.todos import models
+from src.todos.dependencies import get_todo_service
+from src.todos.service import TodoService
 
 router = APIRouter(
 	prefix="/todos",
@@ -18,39 +18,46 @@ router = APIRouter(
 	status_code=status.HTTP_201_CREATED,
 )
 async def create_todo(
-	db: DBSession,
 	todo: models.TodoCreate,
-	current_user: CurrentUser,
+	todo_service: TodoService = Depends(get_todo_service),
 ):
-	return await service.create_todo(current_user, db, todo)
+	return await todo_service.create_todo(todo)
 
 
 @router.get("/", response_model=list[models.TodoResponse])
-async def get_todos(db: DBSession, current_user: CurrentUser):
-	return await service.get_todos(current_user, db)
+async def get_todos(todo_service: TodoService = Depends(get_todo_service)):
+	return await todo_service.get_todos()
 
 
 @router.get("/{todo_id}", response_model=models.TodoResponse)
-async def get_todo(db: DBSession, todo_id: UUID, current_user: CurrentUser):
-	return await service.get_todo_by_id(current_user, db, todo_id)
+async def get_todo(
+	todo_id: UUID,
+	todo_service: TodoService = Depends(get_todo_service),
+):
+	return await todo_service.get_todo_by_id(todo_id)
 
 
 @router.put("/{todo_id}", response_model=models.TodoResponse)
 async def update_todo(
-	db: DBSession,
 	todo_id: UUID,
 	todo_update: models.TodoCreate,
-	current_user: CurrentUser,
+	todo_service: TodoService = Depends(get_todo_service),
 ):
-	return await service.update_todo(current_user, db, todo_id, todo_update)
+	return await todo_service.update_todo(todo_id, todo_update)
 
 
 @router.put("/{todo_id}/complete", response_model=models.TodoResponse)
-async def complete_todo(db: DBSession, todo_id: UUID, current_user: CurrentUser):
-	return await service.complete_todo(current_user, db, todo_id)
+async def complete_todo(
+	todo_id: UUID,
+	todo_service: TodoService = Depends(get_todo_service),
+):
+	return await todo_service.complete_todo(todo_id)
 
 
 @router.delete("/{todo_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_todo(db: DBSession, todo_id: UUID, current_user: CurrentUser):
-	await service.delete_todo(current_user, db, todo_id)
+async def delete_todo(
+	todo_id: UUID,
+	todo_service: TodoService = Depends(get_todo_service),
+):
+	await todo_service.delete_todo(todo_id)
 	return {"message": "Todo deleted successfully"}

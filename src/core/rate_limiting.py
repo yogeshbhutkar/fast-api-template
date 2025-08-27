@@ -10,9 +10,7 @@ T = TypeVar("T", bound=Callable[..., Any])
 
 
 def rate_limit(limit_value: str) -> Callable[[T], T]:
-	"""
-	Type-safe decorator to apply rate limiting to FastAPI route handlers.
-	"""
+	"""Type-safe decorator to apply rate limiting to FastAPI route handlers."""
 
 	def decorator(func: T) -> T:
 		return limiter.limit(limit_value)(func)  # type: ignore[reportUnknownVariableType]
