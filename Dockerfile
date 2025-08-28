@@ -19,4 +19,4 @@ RUN uv sync --frozen --no-cache
 EXPOSE 8000
 
 # Run the application.
-CMD ["uv", "run", "-m", "src.main"]
+CMD ["uv", "run", "-m", "app.main"]

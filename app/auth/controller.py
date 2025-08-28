@@ -3,10 +3,10 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, Request, status
 from fastapi.security import OAuth2PasswordRequestForm
 
-from src.auth import models
-from src.auth.dependencies import get_auth_service
-from src.auth.service import AuthService
-from src.core.rate_limiting import rate_limit
+from app.auth import models
+from app.auth.dependencies import get_auth_service
+from app.auth.service import AuthService
+from app.core.rate_limiting import rate_limit
 
 router = APIRouter(
 	prefix="/auth",

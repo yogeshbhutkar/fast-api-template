@@ -12,8 +12,8 @@ services:
     depends_on:
       - db
     volumes:
-      - ./src:/app/src
-    command: uv run -m src.main
+      - ./app:/app/app
+    command: uv run -m app.main
   
   db:
     image: postgres:17

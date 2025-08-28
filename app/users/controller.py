@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, status
 
-from src.users import models
-from src.users.dependencies import get_user_service
-from src.users.service import UserService
+from app.users import models
+from app.users.dependencies import get_user_service
+from app.users.service import UserService
 
 router = APIRouter(
 	prefix="/users",

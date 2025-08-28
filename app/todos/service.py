@@ -6,10 +6,10 @@ from uuid import UUID
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.auth.models import TokenData
-from src.core.exceptions import TodoCreationError, UserNotFoundError
-from src.entities import Todo
-from src.todos import models
+from app.auth.models import TokenData
+from app.core.exceptions import TodoCreationError, UserNotFoundError
+from app.entities import Todo
+from app.todos import models
 
 
 class TodoService:

@@ -2,9 +2,9 @@ from uuid import UUID
 
 from fastapi import APIRouter, Depends, status
 
-from src.todos import models
-from src.todos.dependencies import get_todo_service
-from src.todos.service import TodoService
+from app.todos import models
+from app.todos.dependencies import get_todo_service
+from app.todos.service import TodoService
 
 router = APIRouter(
 	prefix="/todos",
