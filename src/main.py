@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -24,6 +25,7 @@ app.add_middleware(
 )
 
 register_routes(app)
+load_dotenv()
 
 """
 Only uncomment below to create new tables,

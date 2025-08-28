@@ -1,0 +1,2460 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MetaData",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncAttrs",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "isExtraImport": true,
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "isExtraImport": true,
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "isExtraImport": true,
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "isExtraImport": true,
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "DBSession",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "DBSession",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "DBSession",
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "isExtraImport": true,
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "src.entities",
+        "description": "src.entities",
+        "isExtraImport": true,
+        "detail": "src.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.entities",
+        "description": "src.entities",
+        "isExtraImport": true,
+        "detail": "src.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Priority",
+        "importPath": "src.entities",
+        "description": "src.entities",
+        "isExtraImport": true,
+        "detail": "src.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "importPath": "src.entities",
+        "description": "src.entities",
+        "isExtraImport": true,
+        "detail": "src.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.entities",
+        "description": "src.entities",
+        "isExtraImport": true,
+        "detail": "src.entities",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "isExtraImport": true,
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "isExtraImport": true,
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth_service",
+        "importPath": "src.auth.dependencies",
+        "description": "src.auth.dependencies",
+        "isExtraImport": true,
+        "detail": "src.auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "AuthService",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "AuthService",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "CurrentUser",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "CurrentUser",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "AuthService",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "CurrentUser",
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "isExtraImport": true,
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "rate_limit",
+        "importPath": "src.core.rate_limiting",
+        "description": "src.core.rate_limiting",
+        "isExtraImport": true,
+        "detail": "src.core.rate_limiting",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "pydantic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "PyJWTError",
+        "importPath": "jwt",
+        "description": "jwt",
+        "isExtraImport": true,
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decode",
+        "importPath": "jwt",
+        "description": "jwt",
+        "isExtraImport": true,
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "encode",
+        "importPath": "jwt",
+        "description": "jwt",
+        "isExtraImport": true,
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TodoCreationError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotFoundError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidPasswordError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordMismatchError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotFoundError",
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.auth.controller",
+        "description": "src.auth.controller",
+        "isExtraImport": true,
+        "detail": "src.auth.controller",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.todos.controller",
+        "description": "src.todos.controller",
+        "isExtraImport": true,
+        "detail": "src.todos.controller",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.users.controller",
+        "description": "src.users.controller",
+        "isExtraImport": true,
+        "detail": "src.users.controller",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.langfuse.controller",
+        "description": "src.langfuse.controller",
+        "isExtraImport": true,
+        "detail": "src.langfuse.controller",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "StrEnum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Limiter",
+        "importPath": "slowapi",
+        "description": "slowapi",
+        "isExtraImport": true,
+        "detail": "slowapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_remote_address",
+        "importPath": "slowapi.util",
+        "description": "slowapi.util",
+        "isExtraImport": true,
+        "detail": "slowapi.util",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "get_langfuse_service",
+        "importPath": "src.langfuse.dependency",
+        "description": "src.langfuse.dependency",
+        "isExtraImport": true,
+        "detail": "src.langfuse.dependency",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseRequest",
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "isExtraImport": true,
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseResponse",
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "isExtraImport": true,
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseRequest",
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "isExtraImport": true,
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseResponse",
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "isExtraImport": true,
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseLoggingService",
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "isExtraImport": true,
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseLoggingService",
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "isExtraImport": true,
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "get_client",
+        "importPath": "langfuse",
+        "description": "langfuse",
+        "isExtraImport": true,
+        "detail": "langfuse",
+        "documentation": {}
+    },
+    {
+        "label": "observe",
+        "importPath": "langfuse",
+        "description": "langfuse",
+        "isExtraImport": true,
+        "detail": "langfuse",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.todos",
+        "description": "src.todos",
+        "isExtraImport": true,
+        "detail": "src.todos",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.todos",
+        "description": "src.todos",
+        "isExtraImport": true,
+        "detail": "src.todos",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_service",
+        "importPath": "src.todos.dependencies",
+        "description": "src.todos.dependencies",
+        "isExtraImport": true,
+        "detail": "src.todos.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "TodoService",
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "isExtraImport": true,
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "TodoService",
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "isExtraImport": true,
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "src.auth.models",
+        "description": "src.auth.models",
+        "isExtraImport": true,
+        "detail": "src.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.users",
+        "description": "src.users",
+        "isExtraImport": true,
+        "detail": "src.users",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "src.users",
+        "description": "src.users",
+        "isExtraImport": true,
+        "detail": "src.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_service",
+        "importPath": "src.users.dependencies",
+        "description": "src.users.dependencies",
+        "isExtraImport": true,
+        "detail": "src.users.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "isExtraImport": true,
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "isExtraImport": true,
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"fast-api-template\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"fast-api-template\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"fast-api-template\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"fast-api-template\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"fast-api-template\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "description": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.UUID(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('first_name', sa.String(), nullable=False),\n    sa.Column('last_name', sa.String(), nullable=False),\n    sa.Column('password_hash', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id', name=op.f('pk_users')),",
+        "detail": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "description": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('todos')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0ceb9da3f85f_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "description": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "description": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.d60bdb665e3d_remove_timezone_aware_constraint",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "description": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('todos', 'due_date',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),\n               existing_nullable=True)\n    op.alter_column('todos', 'created_at',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),",
+        "detail": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "description": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('todos', 'completed_at',\n               existing_type=sa.DateTime(timezone=True),\n               type_=postgresql.TIMESTAMP(),\n               existing_nullable=True)\n    op.alter_column('todos', 'created_at',\n               existing_type=sa.DateTime(timezone=True),\n               type_=postgresql.TIMESTAMP(),",
+        "detail": "migrations.versions.f1eb1072e7ad_add_timezone_aware_config",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Set the database URL from settings.\nconfig.set_main_option(\"sqlalchemy.url\", settings.ALEMBIC_DATABASE_URL)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.auth.controller",
+        "description": "src.auth.controller",
+        "peekOfCode": "router = APIRouter(\n\tprefix=\"/auth\",\n\ttags=[\"auth\"],\n)\n@router.post(\"/\", status_code=status.HTTP_201_CREATED)\n@rate_limit(\"5/hour\")\nasync def register_user(\n\trequest: Request,\n\tregister_user_request: models.RegisterUserRequest,\n\tauth_service: AuthService = Depends(get_auth_service),",
+        "detail": "src.auth.controller",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth_service",
+        "kind": 2,
+        "importPath": "src.auth.dependencies",
+        "description": "src.auth.dependencies",
+        "peekOfCode": "def get_auth_service(db: DBSession) -> AuthService:\n\treturn AuthService(db)",
+        "detail": "src.auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterUserRequest",
+        "kind": 6,
+        "importPath": "src.auth.models",
+        "description": "src.auth.models",
+        "peekOfCode": "class RegisterUserRequest(BaseModel):\n\temail: EmailStr\n\tfirst_name: str = Field(..., min_length=1, max_length=50)\n\tlast_name: str = Field(..., min_length=1, max_length=50)\n\tpassword: str = Field(..., min_length=8, max_length=128)\nclass Token(BaseModel):\n\taccess_token: str\n\ttoken_type: str\nclass TokenData(BaseModel):\n\tuser_id: str | None = None",
+        "detail": "src.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "src.auth.models",
+        "description": "src.auth.models",
+        "peekOfCode": "class Token(BaseModel):\n\taccess_token: str\n\ttoken_type: str\nclass TokenData(BaseModel):\n\tuser_id: str | None = None\n\tdef get_uuid(self) -> UUID | None:\n\t\tif self.user_id:\n\t\t\treturn UUID(self.user_id)\n\t\treturn None",
+        "detail": "src.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "src.auth.models",
+        "description": "src.auth.models",
+        "peekOfCode": "class TokenData(BaseModel):\n\tuser_id: str | None = None\n\tdef get_uuid(self) -> UUID | None:\n\t\tif self.user_id:\n\t\t\treturn UUID(self.user_id)\n\t\treturn None",
+        "detail": "src.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AuthService",
+        "kind": 6,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "class AuthService:\n\t\"\"\"Service class for managing authentication operations.\"\"\"\n\tdef __init__(self, db: AsyncSession):\n\t\t\"\"\"Initialize the AuthService with a database session.\n\t\tArgs:\n\t\t\tdb (AsyncSession): The database session.\n\t\t\"\"\"\n\t\tself.db = db\n\t@staticmethod\n\tdef verify_password(plain_password: str, hashed_password: str) -> bool:",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "def get_current_user(\n\ttoken: Annotated[str, Depends(oauth2_bearer)],\n) -> models.TokenData:\n\t\"\"\"Dependency to get the current authenticated user from the token.\"\"\"\n\treturn AuthService.verify_token(token)\nCurrentUser = Annotated[models.TokenData, Depends(get_current_user)]",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_bearer",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass AuthService:\n\t\"\"\"Service class for managing authentication operations.\"\"\"\n\tdef __init__(self, db: AsyncSession):\n\t\t\"\"\"Initialize the AuthService with a database session.\n\t\tArgs:\n\t\t\tdb (AsyncSession): The database session.\n\t\t\"\"\"\n\t\tself.db = db",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt_context",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass AuthService:\n\t\"\"\"Service class for managing authentication operations.\"\"\"\n\tdef __init__(self, db: AsyncSession):\n\t\t\"\"\"Initialize the AuthService with a database session.\n\t\tArgs:\n\t\t\tdb (AsyncSession): The database session.\n\t\t\"\"\"\n\t\tself.db = db\n\t@staticmethod",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.db",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\tself.db = db\n\t@staticmethod\n\tdef verify_password(plain_password: str, hashed_password: str) -> bool:\n\t\t\"\"\"Verify a plain password against its hashed version.\"\"\"\n\t\treturn bcrypt_context.verify(plain_password, hashed_password)\n\t@staticmethod\n\tdef get_password_hash(password: str) -> str:\n\t\t\"\"\"Hash a plain password.\"\"\"\n\t\treturn bcrypt_context.hash(password)\n\t@staticmethod",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tpayload",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\t\tpayload = jwt_decode(\n\t\t\t\ttoken,\n\t\t\t\tsettings.AUTH_SECRET_KEY,\n\t\t\t\talgorithms=[settings.AUTH_ALGORITHM],\n\t\t\t)\n\t\t\tuser_id: str = str(payload.get(\"id\"))\n\t\t\treturn models.TokenData(user_id=user_id)\n\t\texcept PyJWTError as e:\n\t\t\tlogging.error(f\"Token verification failed: {str(e)}\")\n\t\t\traise AuthenticationError(\"Could not validate credentials\")",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\tuser = (\n\t\t\tawait self.db.execute(select(User).where(User.email == email))\n\t\t).scalar_one_or_none()\n\t\tif not user or not self.verify_password(password, user.password_hash):\n\t\t\treturn None\n\t\treturn user\n\tdef _create_access_token(\n\t\tself,\n\t\temail: str,\n\t\tuser_id: UUID,",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttoken",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\ttoken = jwt_encode(\n\t\t\tencode,\n\t\t\tsettings.AUTH_SECRET_KEY,\n\t\t\talgorithm=settings.AUTH_ALGORITHM,\n\t\t)\n\t\treturn cast(\"str\", token)\n\tasync def register_user(\n\t\tself,\n\t\tregister_user_request: models.RegisterUserRequest,\n\t) -> None:",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tcreate_user_model",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\t\tcreate_user_model = User(\n\t\t\t\tid=uuid4(),\n\t\t\t\temail=register_user_request.email,\n\t\t\t\tfirst_name=register_user_request.first_name,\n\t\t\t\tlast_name=register_user_request.last_name,\n\t\t\t\tpassword_hash=self.get_password_hash(register_user_request.password),\n\t\t\t)\n\t\t\tself.db.add(create_user_model)\n\t\t\tawait self.db.commit()\n\t\texcept Exception as e:",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\tuser = await self._authenticate_user(\n\t\t\tform_data.username,\n\t\t\tform_data.password,\n\t\t)\n\t\tif user is None:\n\t\t\traise AuthenticationError()\n\t\ttoken = self._create_access_token(\n\t\t\tuser.email,\n\t\t\tuser.id,\n\t\t\ttimedelta(minutes=settings.AUTH_ACCESS_TOKEN_EXPIRE_MINUTES),",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttoken",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "\t\ttoken = self._create_access_token(\n\t\t\tuser.email,\n\t\t\tuser.id,\n\t\t\ttimedelta(minutes=settings.AUTH_ACCESS_TOKEN_EXPIRE_MINUTES),\n\t\t)\n\t\treturn models.Token(access_token=token, token_type=\"bearer\")\ndef get_current_user(\n\ttoken: Annotated[str, Depends(oauth2_bearer)],\n) -> models.TokenData:\n\t\"\"\"Dependency to get the current authenticated user from the token.\"\"\"",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "CurrentUser",
+        "kind": 5,
+        "importPath": "src.auth.service",
+        "description": "src.auth.service",
+        "peekOfCode": "CurrentUser = Annotated[models.TokenData, Depends(get_current_user)]",
+        "detail": "src.auth.service",
+        "documentation": {}
+    },
+    {
+        "label": "register_routes",
+        "kind": 2,
+        "importPath": "src.core.api",
+        "description": "src.core.api",
+        "peekOfCode": "def register_routes(app: FastAPI):\n\tapp.include_router(todos_router)\n\tapp.include_router(auth_router)\n\tapp.include_router(users_router)\n\tapp.include_router(langfuse_router)",
+        "detail": "src.core.api",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n\t\"\"\"\n\tApplication settings.\n\tLoads settings from environment variables or a .env file.\n\t\"\"\"\n\tAPI_PREFIX: str = \"/api\"\n\tDEBUG: bool = False\n\tDATABASE_URL: str = \"\"\n\tALEMBIC_DATABASE_URL: str = \"\"\n\tSQLALCHEMY_ECHO: bool = False",
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tenv_file",
+        "kind": 5,
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "peekOfCode": "\t\tenv_file = \".env\"\n\t\tenv_file_encoding = \"utf-8\"\n\t\tcase_sensitive = True\nsettings = Settings()",
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tenv_file_encoding",
+        "kind": 5,
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "peekOfCode": "\t\tenv_file_encoding = \"utf-8\"\n\t\tcase_sensitive = True\nsettings = Settings()",
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcase_sensitive",
+        "kind": 5,
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "peekOfCode": "\t\tcase_sensitive = True\nsettings = Settings()",
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "src.core.config",
+        "description": "src.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "kind": 6,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "class AuthenticationError(HTTPException):\n\tdef __init__(self, message: str = \"Could not validate credentials\"):\n\t\tsuper().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=message)\nclass UserNotFoundError(HTTPException):\n\tdef __init__(self, user_id: UUID | None = None):\n\t\tmessage = (\n\t\t\t\"User not found\" if user_id is None else f\"User with id {user_id} not found\"\n\t\t)\n\t\tsuper().__init__(status_code=status.HTTP_404_NOT_FOUND, detail=message)\nclass InvalidPasswordError(HTTPException):",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotFoundError",
+        "kind": 6,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "class UserNotFoundError(HTTPException):\n\tdef __init__(self, user_id: UUID | None = None):\n\t\tmessage = (\n\t\t\t\"User not found\" if user_id is None else f\"User with id {user_id} not found\"\n\t\t)\n\t\tsuper().__init__(status_code=status.HTTP_404_NOT_FOUND, detail=message)\nclass InvalidPasswordError(HTTPException):\n\tdef __init__(self):\n\t\tsuper().__init__(\n\t\t\tstatus_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidPasswordError",
+        "kind": 6,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "class InvalidPasswordError(HTTPException):\n\tdef __init__(self):\n\t\tsuper().__init__(\n\t\t\tstatus_code=status.HTTP_401_UNAUTHORIZED,\n\t\t\tdetail=\"Current password is incorrect\",\n\t\t)\nclass PasswordMismatchError(HTTPException):\n\tdef __init__(self):\n\t\tsuper().__init__(status_code=400, detail=\"New passwords do not match\")\nclass TodoCreationError(HTTPException):",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordMismatchError",
+        "kind": 6,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "class PasswordMismatchError(HTTPException):\n\tdef __init__(self):\n\t\tsuper().__init__(status_code=400, detail=\"New passwords do not match\")\nclass TodoCreationError(HTTPException):\n\tdef __init__(self, error: str):\n\t\tsuper().__init__(\n\t\t\tstatus_code=status.HTTP_500_INTERNAL_SERVER_ERROR,\n\t\t\tdetail=f\"Failed to create todo: {error}\",\n\t\t)",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TodoCreationError",
+        "kind": 6,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "class TodoCreationError(HTTPException):\n\tdef __init__(self, error: str):\n\t\tsuper().__init__(\n\t\t\tstatus_code=status.HTTP_500_INTERNAL_SERVER_ERROR,\n\t\t\tdetail=f\"Failed to create todo: {error}\",\n\t\t)",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmessage",
+        "kind": 5,
+        "importPath": "src.core.exceptions",
+        "description": "src.core.exceptions",
+        "peekOfCode": "\t\tmessage = (\n\t\t\t\"User not found\" if user_id is None else f\"User with id {user_id} not found\"\n\t\t)\n\t\tsuper().__init__(status_code=status.HTTP_404_NOT_FOUND, detail=message)\nclass InvalidPasswordError(HTTPException):\n\tdef __init__(self):\n\t\tsuper().__init__(\n\t\t\tstatus_code=status.HTTP_401_UNAUTHORIZED,\n\t\t\tdetail=\"Current password is incorrect\",\n\t\t)",
+        "detail": "src.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "LogLevels",
+        "kind": 6,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "class LogLevels(StrEnum):\n\tinfo = \"INFO\"\n\twarn = \"WARN\"\n\terror = \"ERROR\"\n\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "kind": 2,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "def configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:\n\t\tlogging.basicConfig(level=log_level, format=LOG_FORMAT_DEBUG)\n\t\treturn\n\tlogging.basicConfig(level=log_level)",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FORMAT_DEBUG",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "LOG_FORMAT_DEBUG = \"%(levelname)s:%(message)s:%(pathname)s:%(funcName)s:%(lineno)d\"\nclass LogLevels(StrEnum):\n\tinfo = \"INFO\"\n\twarn = \"WARN\"\n\terror = \"ERROR\"\n\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\tinfo",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\tinfo = \"INFO\"\n\twarn = \"WARN\"\n\terror = \"ERROR\"\n\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\twarn",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\twarn = \"WARN\"\n\terror = \"ERROR\"\n\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\terror",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\terror = \"ERROR\"\n\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:\n\t\tlogging.basicConfig(level=log_level, format=LOG_FORMAT_DEBUG)",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\tdebug",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\tdebug = \"DEBUG\"\ndef configure_logging(log_level: str = LogLevels.error):\n\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:\n\t\tlogging.basicConfig(level=log_level, format=LOG_FORMAT_DEBUG)\n\t\treturn",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\tlog_level",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\tlog_level = str(log_level).upper()\n\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:\n\t\tlogging.basicConfig(level=log_level, format=LOG_FORMAT_DEBUG)\n\t\treturn\n\tlogging.basicConfig(level=log_level)",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "\tlog_levels",
+        "kind": 5,
+        "importPath": "src.core.logger",
+        "description": "src.core.logger",
+        "peekOfCode": "\tlog_levels = [level.value for level in LogLevels]\n\tif log_level not in log_levels:\n\t\tlogging.basicConfig(level=LogLevels.error)\n\t\treturn\n\tif log_level == LogLevels.debug:\n\t\tlogging.basicConfig(level=log_level, format=LOG_FORMAT_DEBUG)\n\t\treturn\n\tlogging.basicConfig(level=log_level)",
+        "detail": "src.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "rate_limit",
+        "kind": 2,
+        "importPath": "src.core.rate_limiting",
+        "description": "src.core.rate_limiting",
+        "peekOfCode": "def rate_limit(limit_value: str) -> Callable[[T], T]:\n\t\"\"\"Type-safe decorator to apply rate limiting to FastAPI route handlers.\"\"\"\n\tdef decorator(func: T) -> T:\n\t\treturn limiter.limit(limit_value)(func)  # type: ignore[reportUnknownVariableType]\n\treturn decorator",
+        "detail": "src.core.rate_limiting",
+        "documentation": {}
+    },
+    {
+        "label": "limiter",
+        "kind": 5,
+        "importPath": "src.core.rate_limiting",
+        "description": "src.core.rate_limiting",
+        "peekOfCode": "limiter = Limiter(key_func=get_remote_address)\nT = TypeVar(\"T\", bound=Callable[..., Any])\ndef rate_limit(limit_value: str) -> Callable[[T], T]:\n\t\"\"\"Type-safe decorator to apply rate limiting to FastAPI route handlers.\"\"\"\n\tdef decorator(func: T) -> T:\n\t\treturn limiter.limit(limit_value)(func)  # type: ignore[reportUnknownVariableType]\n\treturn decorator",
+        "detail": "src.core.rate_limiting",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "src.core.rate_limiting",
+        "description": "src.core.rate_limiting",
+        "peekOfCode": "T = TypeVar(\"T\", bound=Callable[..., Any])\ndef rate_limit(limit_value: str) -> Callable[[T], T]:\n\t\"\"\"Type-safe decorator to apply rate limiting to FastAPI route handlers.\"\"\"\n\tdef decorator(func: T) -> T:\n\t\treturn limiter.limit(limit_value)(func)  # type: ignore[reportUnknownVariableType]\n\treturn decorator",
+        "detail": "src.core.rate_limiting",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "class Base(AsyncAttrs, DeclarativeBase):\n\t\"\"\"Base class for all models.\"\"\"\n\tmetadata = MetaData(\n\t\tnaming_convention={\n\t\t\t\"ix\": \"ix_%(column_0_label)s\",\n\t\t\t\"uq\": \"uq_%(table_name)s_%(column_0_name)s\",\n\t\t\t\"ck\": \"ck_%(table_name)s_`%(constraint_name)s`\",\n\t\t\t\"fk\": \"fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s\",\n\t\t\t\"pk\": \"pk_%(table_name)s\",\n\t\t},",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "\tmetadata",
+        "kind": 5,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "\tmetadata = MetaData(\n\t\tnaming_convention={\n\t\t\t\"ix\": \"ix_%(column_0_label)s\",\n\t\t\t\"uq\": \"uq_%(table_name)s_%(column_0_name)s\",\n\t\t\t\"ck\": \"ck_%(table_name)s_`%(constraint_name)s`\",\n\t\t\t\"fk\": \"fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s\",\n\t\t\t\"pk\": \"pk_%(table_name)s\",\n\t\t},\n\t)\n\ttype_annotation_map = {datetime.datetime: DateTime(timezone=True)}",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "\ttype_annotation_map",
+        "kind": 5,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "\ttype_annotation_map = {datetime.datetime: DateTime(timezone=True)}\nengine = create_async_engine(\n\tsettings.DATABASE_URL,\n\techo=settings.SQLALCHEMY_ECHO,\n)\nasync_session_maker = async_sessionmaker(\n\tautoflush=False,\n\tautocommit=False,\n\tbind=engine,\n)",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "engine = create_async_engine(\n\tsettings.DATABASE_URL,\n\techo=settings.SQLALCHEMY_ECHO,\n)\nasync_session_maker = async_sessionmaker(\n\tautoflush=False,\n\tautocommit=False,\n\tbind=engine,\n)\nasync def get_async_db_session() -> AsyncGenerator[AsyncSession, None]:",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "async_session_maker",
+        "kind": 5,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "async_session_maker = async_sessionmaker(\n\tautoflush=False,\n\tautocommit=False,\n\tbind=engine,\n)\nasync def get_async_db_session() -> AsyncGenerator[AsyncSession, None]:\n\tasync with async_session_maker() as db:\n\t\tyield db\nDBSession = Annotated[AsyncSession, Depends(get_async_db_session)]",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "DBSession",
+        "kind": 5,
+        "importPath": "src.database.core",
+        "description": "src.database.core",
+        "peekOfCode": "DBSession = Annotated[AsyncSession, Depends(get_async_db_session)]",
+        "detail": "src.database.core",
+        "documentation": {}
+    },
+    {
+        "label": "Priority",
+        "kind": 6,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "class Priority(enum.Enum):\n\tNormal = 0\n\tLow = 1\n\tMedium = 2\n\tHigh = 3\n\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "kind": 6,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "class Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\tuser_id: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tForeignKey(\"users.id\"),",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\tNormal",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\tNormal = 0\n\tLow = 1\n\tMedium = 2\n\tHigh = 3\n\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\tLow",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\tLow = 1\n\tMedium = 2\n\tHigh = 3\n\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\tMedium",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\tMedium = 2\n\tHigh = 3\n\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,\n\t)",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\tHigh",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\tHigh = 3\n\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\tuser_id: Mapped[uuid.UUID] = mapped_column(",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\tTop",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\tTop = 4\nclass Todo(Base):\n\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\tuser_id: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "\t__tablename__",
+        "kind": 5,
+        "importPath": "src.entities.todo",
+        "description": "src.entities.todo",
+        "peekOfCode": "\t__tablename__ = \"todos\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\tuser_id: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tForeignKey(\"users.id\"),\n\t\tnullable=False,",
+        "detail": "src.entities.todo",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.entities.user",
+        "description": "src.entities.user",
+        "peekOfCode": "class User(Base):\n\t__tablename__ = \"users\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tindex=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\temail: Mapped[str] = mapped_column(String, unique=True, nullable=False)\n\tfirst_name: Mapped[str] = mapped_column(String, nullable=False)",
+        "detail": "src.entities.user",
+        "documentation": {}
+    },
+    {
+        "label": "\t__tablename__",
+        "kind": 5,
+        "importPath": "src.entities.user",
+        "description": "src.entities.user",
+        "peekOfCode": "\t__tablename__ = \"users\"\n\tid: Mapped[uuid.UUID] = mapped_column(\n\t\tUUID(as_uuid=True),\n\t\tprimary_key=True,\n\t\tindex=True,\n\t\tdefault=uuid.uuid4,\n\t)\n\temail: Mapped[str] = mapped_column(String, unique=True, nullable=False)\n\tfirst_name: Mapped[str] = mapped_column(String, nullable=False)\n\tlast_name: Mapped[str] = mapped_column(String, nullable=False)",
+        "detail": "src.entities.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.langfuse.controller",
+        "description": "src.langfuse.controller",
+        "peekOfCode": "router = fastapi.APIRouter(\n\tprefix=\"/langfuse\",\n\ttags=[\"langfuse\"],\n)\n@router.post(\n    \"/\",\n    response_model=LangFuseResponse,\n    status_code=fastapi.status.HTTP_200_OK,\n)\nasync def create_langfuse_item(",
+        "detail": "src.langfuse.controller",
+        "documentation": {}
+    },
+    {
+        "label": "get_langfuse_service",
+        "kind": 2,
+        "importPath": "src.langfuse.dependency",
+        "description": "src.langfuse.dependency",
+        "peekOfCode": "def get_langfuse_service() -> LangFuseLoggingService:\n\treturn LangFuseLoggingService()",
+        "detail": "src.langfuse.dependency",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseResponse",
+        "kind": 6,
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "peekOfCode": "class LangFuseResponse(pydantic.BaseModel):\n\tmessage: str\nclass LangFuseRequest(pydantic.BaseModel):\n\tquestion: str = \"What is your name?\"",
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseRequest",
+        "kind": 6,
+        "importPath": "src.langfuse.model",
+        "description": "src.langfuse.model",
+        "peekOfCode": "class LangFuseRequest(pydantic.BaseModel):\n\tquestion: str = \"What is your name?\"",
+        "detail": "src.langfuse.model",
+        "documentation": {}
+    },
+    {
+        "label": "LangFuseLoggingService",
+        "kind": 6,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "class LangFuseLoggingService:\n\tdef __init__(self):\n\t\tself.llm = ChatGoogleGenerativeAI(\n\t\t\tmodel=\"gemini-1.5-flash\",\n\t\t\tgoogle_api_key=settings.GOOGLE_API_KEY,\n\t\t\ttemperature=0.7,\n\t\t)\n\t@observe\n\tasync def log_event(self, request: LangFuseRequest) -> LangFuseResponse:\n\t\tmessage = HumanMessage(content=request.question)",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.llm",
+        "kind": 5,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "\t\tself.llm = ChatGoogleGenerativeAI(\n\t\t\tmodel=\"gemini-1.5-flash\",\n\t\t\tgoogle_api_key=settings.GOOGLE_API_KEY,\n\t\t\ttemperature=0.7,\n\t\t)\n\t@observe\n\tasync def log_event(self, request: LangFuseRequest) -> LangFuseResponse:\n\t\tmessage = HumanMessage(content=request.question)\n\t\ttry:\n\t\t\t# The @observe decorator will automatically track this LLM call",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmessage",
+        "kind": 5,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "\t\tmessage = HumanMessage(content=request.question)\n\t\ttry:\n\t\t\t# The @observe decorator will automatically track this LLM call\n\t\t\tresponse = await self.llm.ainvoke([message])\n\t\t\tresponse_text = (\n\t\t\t\tstr(response.content) if response.content else \"No response received\"\n\t\t\t)\n\t\t\treturn LangFuseResponse(message=response_text)\n\t\texcept Exception as e:\n\t\t\t# The @observe decorator will automatically capture exceptions",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresponse",
+        "kind": 5,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "\t\t\tresponse = await self.llm.ainvoke([message])\n\t\t\tresponse_text = (\n\t\t\t\tstr(response.content) if response.content else \"No response received\"\n\t\t\t)\n\t\t\treturn LangFuseResponse(message=response_text)\n\t\texcept Exception as e:\n\t\t\t# The @observe decorator will automatically capture exceptions\n\t\t\treturn LangFuseResponse(message=f\"Error processing request: {str(e)}\")\n\t\tfinally:\n\t\t\t# Ensure all events are flushed to Langfuse",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresponse_text",
+        "kind": 5,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "\t\t\tresponse_text = (\n\t\t\t\tstr(response.content) if response.content else \"No response received\"\n\t\t\t)\n\t\t\treturn LangFuseResponse(message=response_text)\n\t\texcept Exception as e:\n\t\t\t# The @observe decorator will automatically capture exceptions\n\t\t\treturn LangFuseResponse(message=f\"Error processing request: {str(e)}\")\n\t\tfinally:\n\t\t\t# Ensure all events are flushed to Langfuse\n\t\t\tlangfuse = get_client()",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tlangfuse",
+        "kind": 5,
+        "importPath": "src.langfuse.service",
+        "description": "src.langfuse.service",
+        "peekOfCode": "\t\t\tlangfuse = get_client()\n\t\t\tlangfuse.flush()",
+        "detail": "src.langfuse.service",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.todos.controller",
+        "description": "src.todos.controller",
+        "peekOfCode": "router = APIRouter(\n\tprefix=\"/todos\",\n\ttags=[\"todos\"],\n)\n@router.post(\n\t\"/\",\n\tresponse_model=models.TodoResponse,\n\tstatus_code=status.HTTP_201_CREATED,\n)\nasync def create_todo(",
+        "detail": "src.todos.controller",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_service",
+        "kind": 2,
+        "importPath": "src.todos.dependencies",
+        "description": "src.todos.dependencies",
+        "peekOfCode": "def get_todo_service(\n\tdb: DBSession,\n\tcurrent_user: CurrentUser,\n) -> TodoService:\n\treturn TodoService(db, current_user)",
+        "detail": "src.todos.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "TodoBase",
+        "kind": 6,
+        "importPath": "src.todos.models",
+        "description": "src.todos.models",
+        "peekOfCode": "class TodoBase(BaseModel):\n\tdescription: str\n\tdue_date: datetime | None = None\n\tpriority: Priority = Priority.Medium\nclass TodoCreate(TodoBase):\n\tpass\nclass TodoResponse(TodoBase):\n\tid: UUID\n\tis_completed: bool\n\tcompleted_at: datetime | None = None",
+        "detail": "src.todos.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoCreate",
+        "kind": 6,
+        "importPath": "src.todos.models",
+        "description": "src.todos.models",
+        "peekOfCode": "class TodoCreate(TodoBase):\n\tpass\nclass TodoResponse(TodoBase):\n\tid: UUID\n\tis_completed: bool\n\tcompleted_at: datetime | None = None\n\tmodel_config = ConfigDict(from_attributes=True)",
+        "detail": "src.todos.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoResponse",
+        "kind": 6,
+        "importPath": "src.todos.models",
+        "description": "src.todos.models",
+        "peekOfCode": "class TodoResponse(TodoBase):\n\tid: UUID\n\tis_completed: bool\n\tcompleted_at: datetime | None = None\n\tmodel_config = ConfigDict(from_attributes=True)",
+        "detail": "src.todos.models",
+        "documentation": {}
+    },
+    {
+        "label": "\tmodel_config",
+        "kind": 5,
+        "importPath": "src.todos.models",
+        "description": "src.todos.models",
+        "peekOfCode": "\tmodel_config = ConfigDict(from_attributes=True)",
+        "detail": "src.todos.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoService",
+        "kind": 6,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "class TodoService:\n\t\"\"\"Service class for managing todo operations.\n\tAttributes:\n\t\tdb (AsyncSession): The database session for performing CRUD operations.\n\t\tcurrent_user (TokenData): The current authenticated user.\n\t\"\"\"\n\tdef __init__(self, db: AsyncSession, current_user: TokenData):\n\t\t\"\"\"Initialize the TodoService with a database session and current user.\n\t\tArgs:\n\t\t\tdb (AsyncSession): The database session.",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.db",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\tself.db = db\n\t\tuser_id = current_user.get_uuid()\n\t\tif not user_id:\n\t\t\tlogging.error(\"Invalid user ID in token data.\")\n\t\t\traise UserNotFoundError()\n\t\tself.user_id = user_id\n\tasync def create_todo(\n\t\tself,\n\t\ttodo: models.TodoCreate,\n\t) -> Todo:",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser_id",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\tuser_id = current_user.get_uuid()\n\t\tif not user_id:\n\t\t\tlogging.error(\"Invalid user ID in token data.\")\n\t\t\traise UserNotFoundError()\n\t\tself.user_id = user_id\n\tasync def create_todo(\n\t\tself,\n\t\ttodo: models.TodoCreate,\n\t) -> Todo:\n\t\t\"\"\"Create a new todo item.\"\"\"",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.user_id",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\tself.user_id = user_id\n\tasync def create_todo(\n\t\tself,\n\t\ttodo: models.TodoCreate,\n\t) -> Todo:\n\t\t\"\"\"Create a new todo item.\"\"\"\n\t\ttry:\n\t\t\tnew_todo = Todo(**todo.model_dump())\n\t\t\tnew_todo.user_id = self.user_id\n\t\t\tself.db.add(new_todo)",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tnew_todo",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\t\tnew_todo = Todo(**todo.model_dump())\n\t\t\tnew_todo.user_id = self.user_id\n\t\t\tself.db.add(new_todo)\n\t\t\tawait self.db.commit()\n\t\t\tawait self.db.refresh(new_todo)\n\t\t\treturn new_todo\n\t\texcept Exception as e:\n\t\t\tlogging.error(\n\t\t\t\tf\"Error creating todo for user {self.user_id}: {str(e)}\",\n\t\t\t)",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tnew_todo.user_id",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\t\tnew_todo.user_id = self.user_id\n\t\t\tself.db.add(new_todo)\n\t\t\tawait self.db.commit()\n\t\t\tawait self.db.refresh(new_todo)\n\t\t\treturn new_todo\n\t\texcept Exception as e:\n\t\t\tlogging.error(\n\t\t\t\tf\"Error creating todo for user {self.user_id}: {str(e)}\",\n\t\t\t)\n\t\t\traise TodoCreationError(error=str(e))",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo = (\n\t\t\tawait self.db.execute(\n\t\t\t\tselect(Todo).where(Todo.id == todo_id, Todo.user_id == self.user_id),\n\t\t\t)\n\t\t).scalar_one_or_none()\n\t\tif not todo:\n\t\t\tlogging.warning(f\"Todo with id {todo_id} not found USER:{self.user_id}.\")\n\t\t\traise UserNotFoundError(self.user_id)\n\t\treturn todo\n\tasync def update_todo(",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo = await self.get_todo_by_id(todo_id)\n\t\ttodo_data = todo_update.model_dump(exclude_unset=True)\n\t\tfor key, value in todo_data.items():\n\t\t\tif hasattr(todo, key):\n\t\t\t\tsetattr(todo, key, value)\n\t\tawait self.db.commit()\n\t\tawait self.db.refresh(todo)\n\t\treturn todo\n\tasync def complete_todo(\n\t\tself,",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo_data",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo_data = todo_update.model_dump(exclude_unset=True)\n\t\tfor key, value in todo_data.items():\n\t\t\tif hasattr(todo, key):\n\t\t\t\tsetattr(todo, key, value)\n\t\tawait self.db.commit()\n\t\tawait self.db.refresh(todo)\n\t\treturn todo\n\tasync def complete_todo(\n\t\tself,\n\t\ttodo_id: UUID,",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo = await self.get_todo_by_id(todo_id)\n\t\tif todo.is_completed:\n\t\t\treturn todo\n\t\ttodo.is_completed = True\n\t\ttodo.completed_at = datetime.now(UTC)\n\t\tawait self.db.commit()\n\t\tawait self.db.refresh(todo)\n\t\treturn todo\n\tasync def delete_todo(\n\t\tself,",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo.is_completed",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo.is_completed = True\n\t\ttodo.completed_at = datetime.now(UTC)\n\t\tawait self.db.commit()\n\t\tawait self.db.refresh(todo)\n\t\treturn todo\n\tasync def delete_todo(\n\t\tself,\n\t\ttodo_id: UUID,\n\t) -> None:\n\t\t\"\"\"Delete a specific todo item by its ID.\"\"\"",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo.completed_at",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo.completed_at = datetime.now(UTC)\n\t\tawait self.db.commit()\n\t\tawait self.db.refresh(todo)\n\t\treturn todo\n\tasync def delete_todo(\n\t\tself,\n\t\ttodo_id: UUID,\n\t) -> None:\n\t\t\"\"\"Delete a specific todo item by its ID.\"\"\"\n\t\ttodo = await self.get_todo_by_id(todo_id)",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttodo",
+        "kind": 5,
+        "importPath": "src.todos.service",
+        "description": "src.todos.service",
+        "peekOfCode": "\t\ttodo = await self.get_todo_by_id(todo_id)\n\t\tawait self.db.delete(todo)\n\t\tawait self.db.commit()",
+        "detail": "src.todos.service",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.users.controller",
+        "description": "src.users.controller",
+        "peekOfCode": "router = APIRouter(\n\tprefix=\"/users\",\n\ttags=[\"users\"],\n)\n@router.get(\"/me\", response_model=models.UserResponse)\nasync def get_current_user(\n\tuser_service: UserService = Depends(get_user_service),\n):\n\treturn await user_service.get_user_by_id()\n@router.put(\"/change-password\", status_code=status.HTTP_200_OK)",
+        "detail": "src.users.controller",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_service",
+        "kind": 2,
+        "importPath": "src.users.dependencies",
+        "description": "src.users.dependencies",
+        "peekOfCode": "def get_user_service(db: DBSession, current_user: CurrentUser) -> UserService:\n\treturn UserService(db, current_user)",
+        "detail": "src.users.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "src.users.models",
+        "description": "src.users.models",
+        "peekOfCode": "class UserResponse(BaseModel):\n\tid: UUID\n\temail: EmailStr\n\tfirst_name: str\n\tlast_name: str\nclass PasswordChangeRequest(BaseModel):\n\tcurrent_password: str = Field(..., min_length=8, max_length=128)\n\tnew_password: str = Field(..., min_length=8, max_length=128)\n\tnew_password_confirm: str = Field(..., min_length=8, max_length=128)",
+        "detail": "src.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeRequest",
+        "kind": 6,
+        "importPath": "src.users.models",
+        "description": "src.users.models",
+        "peekOfCode": "class PasswordChangeRequest(BaseModel):\n\tcurrent_password: str = Field(..., min_length=8, max_length=128)\n\tnew_password: str = Field(..., min_length=8, max_length=128)\n\tnew_password_confirm: str = Field(..., min_length=8, max_length=128)",
+        "detail": "src.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "class UserService:\n\t\"\"\"Service class for managing user operations.\"\"\"\n\tdef __init__(self, db: AsyncSession, current_user: CurrentUser):\n\t\t\"\"\"Initialize the UserService with a database session.\n\t\tArgs:\n\t\t\tdb (AsyncSession): The database session.\n\t\t\tcurrent_user (TokenData): The current authenticated user.\n\t\t\"\"\"\n\t\tself.db = db\n\t\tuser_id = current_user.get_uuid()",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.db",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\tself.db = db\n\t\tuser_id = current_user.get_uuid()\n\t\tif not user_id:\n\t\t\tlogging.error(\"Invalid user ID in token data.\")\n\t\t\traise UserNotFoundError()\n\t\tself.user_id = user_id\n\tasync def get_user_by_id(self) -> User:\n\t\t\"\"\"Fetch a user by their ID.\"\"\"\n\t\tuser = (\n\t\t\tawait self.db.execute(select(User).where(User.id == self.user_id))",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser_id",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\tuser_id = current_user.get_uuid()\n\t\tif not user_id:\n\t\t\tlogging.error(\"Invalid user ID in token data.\")\n\t\t\traise UserNotFoundError()\n\t\tself.user_id = user_id\n\tasync def get_user_by_id(self) -> User:\n\t\t\"\"\"Fetch a user by their ID.\"\"\"\n\t\tuser = (\n\t\t\tawait self.db.execute(select(User).where(User.id == self.user_id))\n\t\t).scalar_one_or_none()",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.user_id",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\tself.user_id = user_id\n\tasync def get_user_by_id(self) -> User:\n\t\t\"\"\"Fetch a user by their ID.\"\"\"\n\t\tuser = (\n\t\t\tawait self.db.execute(select(User).where(User.id == self.user_id))\n\t\t).scalar_one_or_none()\n\t\tif not user:\n\t\t\tlogging.warning(f\"User with id {self.user_id} not found.\")\n\t\t\traise UserNotFoundError(self.user_id)\n\t\treturn user",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\tuser = (\n\t\t\tawait self.db.execute(select(User).where(User.id == self.user_id))\n\t\t).scalar_one_or_none()\n\t\tif not user:\n\t\t\tlogging.warning(f\"User with id {self.user_id} not found.\")\n\t\t\traise UserNotFoundError(self.user_id)\n\t\treturn user\n\tasync def change_password(\n\t\tself,\n\t\tpassword_change: models.PasswordChangeRequest,",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tuser",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\t\tuser = await self.get_user_by_id()\n\t\t\t# Verify current password.\n\t\t\tif not AuthService.verify_password(\n\t\t\t\tpassword_change.current_password,\n\t\t\t\tuser.password_hash,\n\t\t\t):\n\t\t\t\tlogging.warning(\n\t\t\t\t\tf\"Operation failed for {self.user_id}: incorrect current password.\",\n\t\t\t\t)\n\t\t\t\traise InvalidPasswordError()",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tuser.password_hash",
+        "kind": 5,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "\t\t\tuser.password_hash = AuthService.get_password_hash(\n\t\t\t\tpassword_change.new_password,\n\t\t\t)\n\t\t\tawait self.db.commit()\n\t\t\tlogging.info(f\"Successfully changed password for user ID: {self.user_id}\")\n\t\texcept Exception as e:\n\t\t\tlogging.error(\n\t\t\t\tf\"Error during password change for user {self.user_id}: {str(e)}\",\n\t\t\t)\n\t\t\traise",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = FastAPI(\n\ttitle=\"FastAPI Template\",\n\tdescription=\"An all batteries included template for FastAPI.\",\n\tversion=\"0.1.0\",\n\tdocs_url=\"/docs\",\n\tredoc_url=\"/redoc\",\n)\napp.add_middleware(\n\tCORSMiddleware,\n\tallow_origins=settings.ALLOWED_ORIGINS,",
+        "detail": "src.main",
+        "documentation": {}
+    }
+]
