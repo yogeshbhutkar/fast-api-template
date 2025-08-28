@@ -31,5 +31,7 @@ class Settings(BaseSettings):
 		env_file_encoding = "utf-8"
 		case_sensitive = True
 
+
+# Load environment variables from .env file.
 load_dotenv()
 settings = Settings()
