@@ -1,9 +1,9 @@
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
-
 from langfuse import get_client, observe
-from src.core.config import settings
-from src.langfuse.model import LangFuseRequest, LangFuseResponse
+
+from app.core.config import settings
+from app.langfuse.model import LangFuseRequest, LangFuseResponse
 
 
 class LangFuseLoggingService:

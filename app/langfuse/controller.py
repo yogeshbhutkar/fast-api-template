@@ -1,8 +1,8 @@
 import fastapi
 
-from src.langfuse.dependency import get_langfuse_service
-from src.langfuse.model import LangFuseRequest, LangFuseResponse
-from src.langfuse.service import LangFuseLoggingService
+from app.langfuse.dependency import get_langfuse_service
+from app.langfuse.model import LangFuseRequest, LangFuseResponse
+from app.langfuse.service import LangFuseLoggingService
 
 router = fastapi.APIRouter(
 	prefix="/langfuse",

@@ -22,9 +22,9 @@ class Settings(BaseSettings):
 	AUTH_ALGORITHM: str = "HS256"
 	AUTH_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 	# Langfuse settings
-	LANGFUSE_SECRET_KEY: str = "sk-lf-75e32b18-bb43-40ba-8368-39b07ec05a8c"
-	LANGFUSE_PUBLIC_KEY: str = "pk-lf-c3b8e39b-4a67-44d3-8448-d7e673b3f599"
-	LANGFUSE_HOST: str = "https://cloud.langfuse.com"
+	LANGFUSE_SECRET_KEY: str = ""
+	LANGFUSE_PUBLIC_KEY: str = ""
+	LANGFUSE_HOST: str = ""
 
 	@classmethod
 	@field_validator("ALLOWED_ORIGINS")
@@ -35,6 +35,7 @@ class Settings(BaseSettings):
 		env_file = ".env"
 		env_file_encoding = "utf-8"
 		case_sensitive = True
+
 
 load_dotenv()
 settings = Settings()
