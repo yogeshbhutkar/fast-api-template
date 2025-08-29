@@ -1,6 +1,9 @@
+import inngest.fast_api
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.ai.service import generate_response
+from app.core.adapters.inngest import inngest_client
 from app.core.api import register_routes
 from app.core.config import settings
 from app.core.logger import LogLevels, configure_logging
@@ -24,6 +27,9 @@ app.add_middleware(
 )
 
 register_routes(app)
+
+# Register Inngest functions.
+inngest.fast_api.serve(app, inngest_client, [generate_response])
 
 if __name__ == "__main__":
 	import uvicorn

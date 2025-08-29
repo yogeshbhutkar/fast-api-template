@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 from pydantic import field_validator
 from pydantic_settings import BaseSettings
 
@@ -21,6 +20,12 @@ class Settings(BaseSettings):
 	AUTH_ALGORITHM: str = "HS256"
 	AUTH_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
+	INNGEST_EVENT_KEY: str = ""
+	INNGEST_SIGNING_KEY: str = ""
+	INNGEST_DEV: bool = True
+
+	GOOGLE_API_KEY: str = ""
+
 	@classmethod
 	@field_validator("ALLOWED_ORIGINS")
 	def parse_allowed_origins(cls, v: str) -> list[str]:
@@ -32,6 +37,4 @@ class Settings(BaseSettings):
 		case_sensitive = True
 
 
-# Load environment variables from .env file.
-load_dotenv()
 settings = Settings()
