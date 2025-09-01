@@ -1,7 +1,8 @@
+import inngest
 from fastapi import APIRouter
 
 from app.ai import models
-from app.ai.service import generate_response
+from app.core.adapters.inngest import inngest_client
 
 router = APIRouter(
 	prefix="/ai-engine",
@@ -16,4 +17,11 @@ def summarize_text():
 
 @router.post("/generate")
 async def generate_content(user_query: models.UserQuery):
-	return generate_response(user_query.user_query)
+	return await inngest_client.send(
+		inngest.Event(
+			name="say-hello",
+			data={
+				"query": user_query.user_query,
+			},
+		),
+	)

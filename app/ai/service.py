@@ -28,5 +28,4 @@ async def generate_response(ctx: inngest.Context) -> str:
 	]
 
 	response = model.invoke(messages)
-	print(response)
 	return response.content  # type: ignore
